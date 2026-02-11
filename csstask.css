@@ -1,0 +1,71 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.section-header{
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+.section-header_title,.section-header_desc{
+    text-align: center;
+}
+.food1,.food2,.food3,.food4{
+    width:310px;
+    display:inline-block;
+    vertical-align:top;
+    border:solid 2px black;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+}
+.food1_img,.food2_img,.food3_img,.food4_img{
+    width:310px;
+    height:400px;
+}
+.container{
+    text-align: center;
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+}
+.food1_button,.food2_button,.food3_button,.food4_button{
+    vertical-align:top;
+    margin-bottom: 0px;
+    margin-top: auto;      
+    align-self: center;
+}
+.contact-form{
+   display:flex;
+   justify-content: center;
+}
+.contact-heading{
+    text-align:center;
+}
+.contact{
+    background-color: black;
+    color:white;
+}
+.name,.email,.age{
+    color:white;
+}
+.send{
+    height: 28px;
+    width: 400px;
+    background-color: aqua;
+    cursor: pointer;
+    border:none;
+}
+.food1_button,.food2_button,.food3_button,.food4_button {
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    border:none;
+    cursor: pointer;
+}
+.food1_title,.food2_title,.food3_title,.food4_title{
+         font-weight: bold;
+}
+.order-form{
+    display:flex;
+    justify-content: center;
+}
